@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+html {
+  font-size: 100%
+}
+
+
+.header-top {
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px dashed #c3925e;
+  background-image: url('../images.jpg');
+}
+
+.chat-links {
+  display: flex;
+}
+
+.chat-links .chat {
+  padding: 7px 7px;
+  border: 1px solid black;
+  border-radius: 12px;
+  color: #707070;
+  margin-right: 5px;
+  font-size: 1rem;
+}
+
+.chat-links .call {
+  padding: 7px 7px;
+  border: 1px solid black;
+  border-radius: 12px;
+  color: #707070;
+  margin-right: 7px;
+  font-size: 1rem;
+}
+
+.chat-links .signup {
+  padding: 13px 30px;
+  border: 1px solid white;
+  border-radius: 12px;
+  background-color: #000000;
+  color: white;
+  margin-left: 7px;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.header-bottom {
+  background-color: #ffc928;
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+
+}
+
+.header-bottom .nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.header-bottom .nav-links {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.header-bottom .nav-links:hover {
+  color: red;
+}
+
+.header-bottom .dropbtn {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+
+.slider-section {
+  width: 100%;
+  background-color: #1779ba;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.slider-section .slider-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.slider-section p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.slider-section h5 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.slider-chatlinks {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  width: 100%;
+}
+
+.slider-chatlinks .chat {
+  padding: 12px 12px;
+  border: 1px solid #ff7000;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  margin-right: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.slider-chatlinks .call {
+  padding: 12px 12px;
+  border: 1px solid #ff7000;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  margin-right: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#about {
+  width: 100%;
+}
+
+#about .container {
+  padding: 25px 0px;
+}
+
+#about .icons {
+  text-align: center;
+}
+
+#about .about-main p {
+  text-align: justify;
+  padding: 15px 0px;
+  font-size: 15px;
+  color: #000000;
+}
+
+
+
+
+#about .vision,
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 1px solid #c3925e;
+  background-color: #c3925e;
+  padding: 17px;
+  border-radius: 13px;
+  text-align: justify;
+}
+
+#about .about-content {
+  color: floralwhite;
+}
+
+#about .vision h3 {
+  color: floralwhite;
+  font-weight: 900;
+}
+
+#about .mission h3 {
+  color: floralwhite;
+  font-weight: 900;
+}
+
+#contact {
+  width: 100%;
+  background-color: black;
+}
+
+#contact .container {
+  padding: 25px 0px;
+}
+
+#contact .faq {
+  background-color: #f5f5f6;
+  border: 1px solid #f5f5f6;
+  border-radius: 13px;
+  text-align: justify;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#contact .list-group a {
+  text-decoration: none;
+}
+
+.list-group-item:first-child {
+  background-color: black;
+  color: white;
+}
+
+#contact .contact-form {
+  border: 1px solid white;
+  padding: 17px;
+  border-radius: 13px;
+  text-align: justify;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#contact .contact-form h3 {
+  color: white;
+  text-align: center;
+}
+
+.contact-form form label {
+  color: white;
+}
+
+#disclaimer {
+  width: 100%;
+}
+
+#disclaimer .container {
+  padding: 25px 0px;
+}
+
+#disclaimer .disc {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 1px solid #f5f5f6;
+  background-color: #f5f5f6;
+  padding: 17px;
+  border-radius: 13px;
+  text-align: justify;
+}
+
+#disclaimer ,ul li {
+  color: black;
+
+}
+
+
+#disclaimer .disc:hover {
+  transform: scale(1);
+  box-shadow: 0 0 15px #000000;
+  color: #000000;
+
+}
+
+#disclaimer .privacy {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 1px solid #f5f5f6;
+  background-color: #f5f5f6;
+  padding: 17px;
+  border-radius: 13px;
+  text-align: justify;
+}
+
+
+#disclaimer .privacy:hover {
+  transform: scale(1);
+  box-shadow: 0 0 15px #000000;
+  color: #000000;
+
+}
+
+#Intro {
+  width: 100%;
+
+}
+
+#Intro .container {
+  padding: 25px 0px;
+}
+
+#Intro .introbox {
+  padding: 17px;
+  border-radius: 13px;
+  background-color: #000000;
+}
+
+#Intro .introbox p {
+  color: white;
+  text-align: justify;
+}
+
+#Eligibility {
+  width: 100%;
+
+}
+
+#Eligibility .container {
+  padding: 25px 0px;
+}
+
+#Eligibility .introbox {
+  padding: 17px;
+  border-radius: 13px;
+  background-color: #000000;
+}
+
+#Eligibility .introbox li {
+  color: white;
+  text-align: justify;
+}
+
+#Eligibility .introbox li {
+  color: white;
+  text-align: justify;
+}
+
+
+#Settlement {
+  width: 100%;
+}
+
+#Settlement .container {
+  padding: 25px 0px;
+}
+
+#Settlement .introbox {
+  padding: 17px;
+  border-radius: 13px;
+  background-color: #000000;
+}
+
+#Settlement, p {
+  color: white;
+  text-align: justify;
+}
+
+#Settlement, li {
+  color: white;
+  text-align: justify;
+}
+
+#file {
+  width: 100%;
+}
+
+#file .container {
+  padding: 25px 0px;
+}
+
+#file .introbox {
+  padding: 17px;
+  border-radius: 13px;
+  background-color: #000000;
+}
+
+#file, p {
+  color: white;
+  text-align: justify;
+}
+
+#footer{
+  width: 100%;
+  background: #108dc7;
+  background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);
+  background: linear-gradient(to right, #ef8e38, #5c7581);
+  position: relative;
+  top: 0px;
+  height:30px;
+}
+#footer .footer-left{
+  display: block;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 1023px)  {
+
+  .header-top {
+    width: 100%;
+  }
+
+  #about{
+    width: 100%;
+  }
+
+  #about .row{
+    display: flex;
+  }
+
+  #about.vision  {
+    margin-bottom: 20px;
+  }
+
+  .header-bottom {
+    display: inline-block;
+    min-width: 1180px;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .slider-section {
+    min-width: 1180px;
+  }
+
+  #contact{
+    width: 100%;
+  }
+ 
+}
